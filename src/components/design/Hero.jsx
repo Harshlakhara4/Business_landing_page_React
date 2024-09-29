@@ -12,7 +12,7 @@ export const Gradient = () => {
   );
 };
 
-export const BottomLine = () => {
+export const BottomLines = () => {
   return (
     <>
       <div className="hidden absolute top-[55.25rem] left-10 right-10 h-0.25 bg-n-6 pointer-events-none xl:block" />
