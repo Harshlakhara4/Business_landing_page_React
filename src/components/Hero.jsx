@@ -7,6 +7,7 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generation from "./Generation";
 import Notification from "./Notification";
+import Companylogos from "./Companylogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -100,6 +101,8 @@ const Hero = () => {
 
           <BackgroundCircles />
         </div>
+
+        <Companylogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
 
       <BottomLines />
